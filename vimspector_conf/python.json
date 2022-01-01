@@ -1,0 +1,23 @@
+{
+  "configurations": {
+    "run": {
+      "adapter": "debugpy",
+      "configuration": {
+        "request": "launch",
+        "type": "python",
+        "cwd": "${workspaceFolder}",
+        "program": "${file}",
+        "stopOnEntry": true,
+        "args": [],
+        "console": "integratedTerminal"
+      },
+      "breakpoints": {
+        "exception": {
+          "raised": "N",
+          "uncaught": ""
+        }
+      }
+    }
+  }
+}
+
