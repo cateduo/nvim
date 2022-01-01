@@ -1,0 +1,5 @@
+autoload/
+plugged/
+colors/
+tmp/
+*.DS_Store
