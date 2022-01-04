@@ -208,7 +208,7 @@ function! s:generate_compile_commands()
     execute 'silent !mkdir .vscode'
   endif
   execute '!cmake -DCMAKE_BUILD_TYPE=debug
-      \ -DCMAKE_EXPORT_COMPILECOMMAND=1 -S . B .vscode'
+      \ -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -S . -B .vscode'
 endfunction
 command! -nargs=0 Gcmake :call s:generate_compile_commands()
 
